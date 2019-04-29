@@ -7,4 +7,4 @@ To see a working demo of this project, clone it and run the below commands
 >npm start
 
 A Screenshot :
-![](./Screenshot.png)
+![](Screenshot.png)
