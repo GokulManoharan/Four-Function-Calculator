@@ -1,6 +1,6 @@
 ## Four Function Calculator
 
-A simple arithmetic calculator built using React.js as library and Redux to manage the state values
+A simple arithmetic calculator built using React.js library and Redux to manage the state values.
 
 To see a working demo of this project, clone it and run the below commands
 >npm install &&
