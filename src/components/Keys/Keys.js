@@ -1,15 +1,6 @@
 import React from 'react'
 
-import Key1 from './Key1'
-import Key2 from './Key2'
-import Key3 from './Key3'
-import Key4 from './Key4'
-import Key5 from './Key5'
-import Key6 from './Key6'
-import Key7 from './Key7'
-import Key8 from './Key8'
-import Key9 from './Key9'
-import Key0 from './Key0'
+import Key from './Key'
 import KeyDot from './KeyDot'
 import KeyPlus from './KeyPlus'
 import KeyMinus from './KeyMinus'
@@ -41,13 +32,13 @@ const Keys = () => {
 
                 <div className="row mt-1">
                     <div className="col-md-3 ">
-                        <Key1 />
+                        <Key value="1" />
                     </div>
                     <div className="col-md-3">
-                         <Key2 />
+                         <Key value="2" />
                     </div>
                     <div className="col-md-3">
-                         <Key3 />
+                         <Key value="3" />
                     </div>
                     <div className="ml-3">
                        <KeyPlus />
@@ -56,13 +47,13 @@ const Keys = () => {
 
                 <div className="row mt-1">
                     <div className="col-md-3">
-                       <Key4 />
+                       <Key value="4" />
                     </div>
                     <div className="col-md-3">
-                       <Key5 />
+                       <Key value="5" />
                     </div>
                     <div className="col-md-3">
-                         <Key6 />
+                         <Key value="6" />
                     </div>
                     <div className="col-md-3">
                         <KeyMinus />
@@ -71,13 +62,13 @@ const Keys = () => {
 
                 <div className="row mt-1">
                     <div className="col-md-3">
-                         <Key7 />
+                         <Key value="7" />
                     </div>
                     <div className="col-md-3">
-                        <Key8 />
+                        <Key value="8" />
                     </div>
                     <div className="col-md-3">
-                         <Key9 />
+                         <Key value="9" />
                     </div>
                     <div className="col-md-3">
                         <KeyMultiple />
@@ -89,7 +80,7 @@ const Keys = () => {
                           <KeyDot />
                     </div>
                     <div className="col-md-3">
-                         <Key0 />
+                         <Key value="0" />
                     </div>
                     <div className="col-md-3">
                           <KeyEqual />
