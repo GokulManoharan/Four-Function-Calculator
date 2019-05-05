@@ -10,7 +10,7 @@ const KeyCloseBracket =(props) => {
         }
 
         return(
-            <button  className=" border btn btn-secondary btn-lg" style={{width:'70px'}}  name="closeBracket" onClick={handleClick}>)</button>
+            <button  className=" border btn btn-secondary btn-lg" style={{width:'50px'}}  name="closeBracket" onClick={handleClick}>)</button>
         )
     }
 

@@ -1,16 +1,9 @@
 import React from 'react'
 
 import Key from './Key'
-import KeyDot from './KeyDot'
-import KeyPlus from './KeyPlus'
-import KeyMinus from './KeyMinus'
-import KeyMultiple from './KeyMultiple'
-import KeyDiv from './KeyDiv'
 import KeyEqual from './KeyEqual'
 import KeyClear from './KeyClear'
 import KeyBackSpace from './KeyBackSpace'
-import KeyOpenBracket from './KeyOpenBracket'
-import KeyCloseBracket from './KeyCloseBracket'
 
 const Keys = () => {
         return (
@@ -23,10 +16,10 @@ const Keys = () => {
                         <KeyBackSpace />
                     </div>
                     <div className="col-md-3 ">
-                        <KeyOpenBracket />
+                        <Key value="(" type="sign" />
                     </div>
                     <div className="col-md-3 ">
-                        <KeyCloseBracket />
+                        <Key value=")" type="sign" col="4" />
                     </div>
                 </div>
 
@@ -41,7 +34,7 @@ const Keys = () => {
                          <Key value="3" />
                     </div>
                     <div className="ml-3">
-                       <KeyPlus />
+                       <Key value="+" type="sign" col="4" />
                     </div>
                 </div>
 
@@ -56,7 +49,7 @@ const Keys = () => {
                          <Key value="6" />
                     </div>
                     <div className="col-md-3">
-                        <KeyMinus />
+                        <Key value="-" type="sign" col="4"  />
                     </div>
                 </div>
 
@@ -71,13 +64,13 @@ const Keys = () => {
                          <Key value="9" />
                     </div>
                     <div className="col-md-3">
-                        <KeyMultiple />
+                        <Key value="*" type="sign" col="4"  />
                     </div>
                 </div>
 
                 <div className="row mt-1">
                     <div className="col-md-3">
-                          <KeyDot />
+                          <Key value="." type="sign" />
                     </div>
                     <div className="col-md-3">
                          <Key value="0" />
@@ -86,7 +79,7 @@ const Keys = () => {
                           <KeyEqual />
                     </div>
                     <div className="col-md-3">
-                         <KeyDiv />
+                         <Key value="/" type="sign" col="4"  />
                     </div>
                 </div>
                

@@ -10,7 +10,7 @@ const Key =(props) => {
         }
 
         return(
-            <button className=" border btn btn-secondary btn-lg" style={{width:'90px'}}  name={props.value} onClick={handleClick}>{props.value}</button>
+            <button className="border btn btn-secondary btn-lg" style={ (props.type && props.col) ? {width:'70px'} : {width:'90px'}}  name={props.value} onClick={handleClick}>{props.value}</button>
         )
     }
 
