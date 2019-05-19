@@ -6,6 +6,8 @@ To see a working demo of this project, clone it and run the below commands
 >npm install &&
 >npm start
 
+#### A working demo can be seen [here.](https://fourfunctioncalculator-react.herokuapp.com/)
+
 Screenshot :
 
 
