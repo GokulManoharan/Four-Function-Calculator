@@ -14,7 +14,7 @@ const calcReducer = (state = initialCalcState, action) => {
                 return state
             }
             else{
-                return state.slice(0,state.length-1)
+                return state.toString().slice(0,state.length-1)
             }
         default:
             return state
